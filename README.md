@@ -8,7 +8,7 @@ The board configuration is for ESP32S3-BOX, if you wanna use different board, a 
 
 Node.js 16+ must be installed first as well as the DeviceScript VSCode extension from Microsoft DevLabs. I recommend reading the [tutorial](https://microsoft.github.io/devicescript/getting-started/vscode) for setting up DeviceScript.
 
-Clone this project, connect your ESP32S3-BOX (or any other device, but you need to switch to/create the respective board config) and Navigate to Devices/Flash Firmware... (CMD + Shift + P and >DeviceScript:Flash Firmware...).
+Clone this project, connect your ESP32S3-BOX (or any other device, but you need to switch to/create the respective board config) and Navigate to Devices/Flash Firmware... (CMD + Shift + P and >DeviceScript:Flash Firmware...). ESP32S3-BOX board config should be in the list of options.
 
 After successful flash, click Connect Device button in Devices tab (or >DeviceScript:Connect...)
 
