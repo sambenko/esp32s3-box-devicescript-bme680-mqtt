@@ -1,5 +1,11 @@
 import { startBME680 } from "@devicescript/drivers"
 import { startMQTTClient } from "@devicescript/net"
+import { Wifi } from "@devicescript/core"
+
+const wifi = new Wifi()
+
+// set SSID and PASSWORD
+await wifi.addNetwork("SSID", "PASSWORD")
 
 const { temperature, humidity, pressure, airQualityIndex } = await startBME680({
     address: 0x76,
